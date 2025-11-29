@@ -1,0 +1,54 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+*.pyc
+__pycache__/
+*.egg-info/
+.Python
+build/
+dist/
+
+# Secrets & Environment
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# Data files
+*.csv
+*.json
+data/raw/
+data/processed/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Cache & Testing
+.cache/
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# OS
+.DS_Store
+.env.*.swp
+*.log
+
+# Project specific
+qdrant_payloads.json
+qdrant_vectors.json
+cleaned_dataset.csv

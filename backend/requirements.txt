@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sentence-transformers
+qdrant-client<1.16.0
+numpy
+pydantic
+python-dotenv
+openai
+requests
+tqdm
+redis  # optional for caching
+groq
