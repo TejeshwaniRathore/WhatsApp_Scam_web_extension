@@ -157,11 +157,8 @@ WhatsApp_Scam_web_extension/
 ├── chrome_extension/
 │   ├── manifest.json             # Extension config
 │   ├── content.js                # Message interceptor
-│   ├── background.js             # Background worker
-│   ├── popup.html                # Extension UI
-│   ├── popup.js                  # Popup logic
-│   ├── styles.css                # Extension styles
-│   └── icons/                    # Extension icons
+│   ├── background.js        # Background worker
+|
 │
 ├── tests/
 │   ├── test_classify.py
